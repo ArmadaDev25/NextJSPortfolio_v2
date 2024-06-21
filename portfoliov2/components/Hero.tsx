@@ -2,6 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import LitUpBordersButton from './ui/LitUpBordersButton'
+import ShimmerButton from './ui/ShimmerButton'
 
 const Hero = () => {
     return(
@@ -34,7 +35,7 @@ const Hero = () => {
                         />
                     </a>
                     <a className='px-3'>
-                        <LitUpBordersButton
+                        <ShimmerButton
                            // title="My Work"
                         />
                     </a>

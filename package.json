@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.11",
+    "react-element-to-jsx-string": "^15.0.0",
+    "tailwind-merge": "^2.3.0"
+  }
+}

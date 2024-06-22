@@ -25,7 +25,7 @@ const Hero = () => {
                         words='Expressing Creativity and Ingenuity Through Programming And Development'
                     />
                     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                        Hi, I'm John, and I am a Software Engineer based in the United States.
+                        Hi Im John and I am a Software Engineer based in the United States.
 
                     </p>
                     <div>

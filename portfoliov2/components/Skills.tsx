@@ -2,9 +2,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Meteors } from "./ui/meteors";
+import skillicon from './sub/skillicon';
 
 const Skills = () =>{
-    return(
+  
+    
+  return(
       <div>
         <div className="flex justify-center dark:bg-black-100 bg-white">
         <div className=" max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] w-full relative max-w-screen-md">
@@ -20,10 +23,12 @@ const Skills = () =>{
               cool here. One more sentence because lorem ipsum is just
               unacceptable. Won&apos;t ChatGPT the shit out of this.
             </p>
+            <div>
+
+            </div>
+            
   
-            <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
-              Explore
-            </button>
+            
   
             {/* Meaty part - Meteor effect */}
             <Meteors number={20} />
@@ -31,6 +36,6 @@ const Skills = () =>{
           </div>
         </div>
       </div>
-    )
+  )
 }
 export default Skills

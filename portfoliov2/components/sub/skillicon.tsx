@@ -6,15 +6,18 @@ import Image from "next/image";
 
 interface Props {
     src: string;
+    width: number;
+    height: number;
 
 }
 
-const skillicon = ({src} : Props) => {
+const skillicon = ({src, width, height} : Props) => {
     return(
         <div>
             <Image src={src}
                 width={width}
                 height={height}
+                alt='Skill Logo'
 
             
             />

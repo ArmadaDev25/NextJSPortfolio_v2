@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Meteors } from "./ui/meteors";
 import skillicon from './sub/skillicon';
+import { skills_Icons } from "@/public/Data";
 
 const Skills = () =>{
   

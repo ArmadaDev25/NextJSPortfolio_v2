@@ -8,10 +8,11 @@ interface Props {
     src: string;
     width: number;
     height: number;
+    index: number;
 
 }
 
-const skillicon = ({src, width, height} : Props) => {
+const SkillIconProvider = ({src, width, height, index} : Props) => {
     return(
         <div>
             <Image src={src}
@@ -26,4 +27,4 @@ const skillicon = ({src, width, height} : Props) => {
         </div>
     )
 }
-export default skillicon
+export default SkillIconProvider

@@ -42,9 +42,9 @@ export const skills_Icons = [
       height: 80,
     },
     {
-        //skill_name: "Python",
-        Image: "/images/python.png",
-        width: 80,
-        height: 80,
+      //skill_name: "Python",
+      Image: "/images/python.png",
+      width: 80,
+      height: 80,
     },
   ];

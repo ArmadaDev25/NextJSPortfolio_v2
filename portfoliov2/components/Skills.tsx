@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Meteors } from "./ui/meteors";
-import skillicon from './sub/skillicon';
+import SkillIconProvider from "./sub/SkillIconProvider";
 import { skills_Icons } from "@/public/Data";
 
 const Skills = () =>{
@@ -25,6 +25,15 @@ const Skills = () =>{
               unacceptable. Won&apos;t ChatGPT the shit out of this.
             </p>
             <div>
+              {skills_Icons.map((image, index) => (
+                <SkillIconProvider 
+                key={index}
+                  src={image.Image}
+                  width={image.width}
+                  height={image.height}
+                  index={index}
+                />
+              ))}
 
             </div>
             

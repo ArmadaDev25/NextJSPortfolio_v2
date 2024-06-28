@@ -13,8 +13,11 @@ interface Props {
 }
 
 const SkillIconProvider = ({src, width, height, index} : Props) => {
+    const {ref, inView} = useInView({
+        triggerOnce: true
+    })
     return(
-        <div>
+        <motion.div>
             <Image src={src}
                 width={width}
                 height={height}
@@ -24,7 +27,7 @@ const SkillIconProvider = ({src, width, height, index} : Props) => {
             />
             
 
-        </div>
+        </motion.div>
     )
 }
 export default SkillIconProvider

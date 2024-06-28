@@ -16,6 +16,11 @@ const SkillIconProvider = ({src, width, height, index} : Props) => {
     const {ref, inView} = useInView({
         triggerOnce: true
     })
+
+    const imageVariants = {
+        hidden: {opacity: 0},
+        visible: {opacity: 1}
+    }
     return(
         <motion.div>
             <Image src={src}

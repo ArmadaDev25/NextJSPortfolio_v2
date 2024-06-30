@@ -31,12 +31,12 @@ const Hero = () => {
                     <div>
                     <a className='px-3'>
                         <LitUpBordersButton
-                           // title="My Work"
+                           title="My Work"
                         />
                     </a>
                     <a className='px-3'>
                         <ShimmerButton
-                           // title="My Work"
+                           title="My Github"
                         />
                     </a>
                     </div>

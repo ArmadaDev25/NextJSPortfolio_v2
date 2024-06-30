@@ -21,8 +21,18 @@ const SkillIconProvider = ({src, width, height, index} : Props) => {
         hidden: {opacity: 0},
         visible: {opacity: 1}
     }
+
+    const animationDelay = 0.2
+
     return(
-        <motion.div>
+        <motion.div
+        ref={ref}
+        initial="hidden"
+        variants={imageVariants}
+        animate={inView ? "visible" : "hidden"}
+        custom={index}
+        transition={{delay: index * animationDelay}}
+        >
             <Image src={src}
                 width={width}
                 height={height}

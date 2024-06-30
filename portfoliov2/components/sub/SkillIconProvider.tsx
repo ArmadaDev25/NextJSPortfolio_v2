@@ -3,8 +3,10 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 import {motion} from 'framer-motion';
 import Image from "next/image";
+import { Tooltip } from "flowbite-react";
 
 interface Props {
+    name: string;
     src: string;
     width: number;
     height: number;
@@ -12,7 +14,7 @@ interface Props {
 
 }
 
-const SkillIconProvider = ({src, width, height, index} : Props) => {
+const SkillIconProvider = ({name, src, width, height, index} : Props) => {
     const {ref, inView} = useInView({
         triggerOnce: true
     })
@@ -33,6 +35,7 @@ const SkillIconProvider = ({src, width, height, index} : Props) => {
         custom={index}
         transition={{delay: index * animationDelay}}
         >
+            <Tooltip content={name}>
             <Image src={src}
                 width={width}
                 height={height}
@@ -40,6 +43,7 @@ const SkillIconProvider = ({src, width, height, index} : Props) => {
 
             
             />
+            </Tooltip>
             
 
         </motion.div>

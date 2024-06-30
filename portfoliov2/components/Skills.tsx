@@ -23,6 +23,7 @@ const Skills = () =>{
               {skills_Icons.map((image, index) => (
                 <SkillIconProvider 
                 key={index}
+                  name={image.skill_name}
                   src={image.Image}
                   width={image.width}
                   height={image.height}

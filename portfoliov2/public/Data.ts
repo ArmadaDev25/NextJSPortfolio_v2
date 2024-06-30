@@ -6,19 +6,19 @@ export const skills_Icons = [
       height: 80,
     },
     {
-      skill_name: "Css",
+      skill_name: "CSS",
       Image: "/images/css.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Java Script",
+      skill_name: "JavaScript",
       Image: "/images/js.png",
       width: 65,
       height: 65,
     },
     {
-      skill_name: "Tailwind Css",
+      skill_name: "Tailwind CSS",
       Image: "/images/tailwind.png",
       width: 80,
       height: 80,
@@ -36,7 +36,7 @@ export const skills_Icons = [
       height: 80,
     },
     {
-      skill_name: "Next js",
+      skill_name: "Next.js",
       Image: "/images/next.png",
       width: 80,
       height: 80,

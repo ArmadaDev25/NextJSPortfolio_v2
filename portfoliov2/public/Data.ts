@@ -48,3 +48,19 @@ export const skills_Icons = [
       height: 80,
     },
   ];
+
+export const myWebProjects = [
+  
+  {
+    name: "RPS React",
+    livelnk:"https://preeminent-pavlova-576c44.netlify.app",
+    githublnk: "https://github.com/ArmadaDev25/RPS_REACTsite"
+  },
+  {
+    name: "GameNet",
+    livelnk:"https://online-game-site-3eb2ce2f7928.herokuapp.com",
+    githublnk: "https://github.com/ArmadaDev25/DGameSite"
+  },
+
+
+]

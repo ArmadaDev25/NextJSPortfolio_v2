@@ -57,9 +57,24 @@ export const myWebProjects = [
     githublnk: "https://github.com/ArmadaDev25/RPS_REACTsite"
   },
   {
+    name: "Reactemon (Fortis)",
+    livelnk:"https://main--mellow-cheesecake-394e88.netlify.app",
+    githublnk: "https://github.com/ArmadaDev25/FortisFrontend"
+  },
+  {
     name: "GameNet",
     livelnk:"https://online-game-site-3eb2ce2f7928.herokuapp.com",
     githublnk: "https://github.com/ArmadaDev25/DGameSite"
+  },
+  {
+    name: "WarhammerMuster.com",
+    livelnk:"https://warhammer-muster-a5ef2c39f109.herokuapp.com",
+    githublnk: "https://github.com/ArmadaDev25/WarhammerListBuilderApp"
+  },
+  {
+    name: "Heros.io",
+    livelnk:"https://armadadev25.github.io/heros.io/",
+    githublnk: "https://github.com/ArmadaDev25/heros.io"
   },
 
 

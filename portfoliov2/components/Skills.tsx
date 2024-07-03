@@ -11,9 +11,6 @@ const Skills = () =>{
   return(
       <div className="py-10 dark:bg-black-100 bg-white">
         
-        <h1 className="flex justify-center font-bold md:text-3xl sm:text-xl lg:text-4xl text-white mb-4 relative z-50">
-          Languages and Frameworks
-        </h1>
         
         <div className=" flex justify-center ">
         <div className=" max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] w-full relative max-w-screen-md">

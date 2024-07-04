@@ -14,7 +14,7 @@ export const Projects = () =>{
                 {myWebProjects.map(({name, livelnk, githublnk, png }, index) => (
                     <GlareCard className="flex flex-col items-start justify-end py-8 px-6" key={index}>
                         <div>
-                            <Image src={png} width={300} height= {300} alt='Skill Logo'/>
+                            <Image src={png} width={290} height= {290} alt='Page Picture'/>
                             {name}
                         </div>
                         

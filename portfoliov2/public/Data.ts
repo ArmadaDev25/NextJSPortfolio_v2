@@ -61,7 +61,7 @@ export const myWebProjects = [
     name: "Reactemon (Fortis)",
     livelnk:"https://main--mellow-cheesecake-394e88.netlify.app",
     githublnk: "https://github.com/ArmadaDev25/FortisFrontend",
-    png: "/images/rpsreact.png"
+    png: "/images/reactemon.png"
   },
   {
     name: "GameNet",

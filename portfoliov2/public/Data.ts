@@ -54,27 +54,32 @@ export const myWebProjects = [
   {
     name: "RPS React",
     livelnk:"https://preeminent-pavlova-576c44.netlify.app",
-    githublnk: "https://github.com/ArmadaDev25/RPS_REACTsite"
+    githublnk: "https://github.com/ArmadaDev25/RPS_REACTsite",
+    png: "/images/rpsreact.png"
   },
   {
     name: "Reactemon (Fortis)",
     livelnk:"https://main--mellow-cheesecake-394e88.netlify.app",
-    githublnk: "https://github.com/ArmadaDev25/FortisFrontend"
+    githublnk: "https://github.com/ArmadaDev25/FortisFrontend",
+    png: "/images/rpsreact.png"
   },
   {
     name: "GameNet",
     livelnk:"https://online-game-site-3eb2ce2f7928.herokuapp.com",
-    githublnk: "https://github.com/ArmadaDev25/DGameSite"
+    githublnk: "https://github.com/ArmadaDev25/DGameSite",
+    png: "/images/rpsreact.png"
   },
   {
     name: "WarhammerMuster.com",
     livelnk:"https://warhammer-muster-a5ef2c39f109.herokuapp.com",
-    githublnk: "https://github.com/ArmadaDev25/WarhammerListBuilderApp"
+    githublnk: "https://github.com/ArmadaDev25/WarhammerListBuilderApp",
+    png: "/images/rpsreact.png"
   },
   {
     name: "Heros.io",
     livelnk:"https://armadadev25.github.io/heros.io/",
-    githublnk: "https://github.com/ArmadaDev25/heros.io"
+    githublnk: "https://github.com/ArmadaDev25/heros.io",
+    png: "/images/rpsreact.png"
   },
 
 

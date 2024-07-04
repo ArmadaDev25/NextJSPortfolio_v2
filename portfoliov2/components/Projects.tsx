@@ -1,5 +1,6 @@
 import React from "react";
 import { myWebProjects } from "@/public/Data";
+import Image from "next/image";
 
 export const Projects = () =>{
     return(
@@ -8,9 +9,10 @@ export const Projects = () =>{
                 My Projects
             </h1>
             <div className="flex flex-wrap gap-10 items-center justify-center">
-                {myWebProjects.map((project) => (
+                {myWebProjects.map(({name, livelnk, githublnk, png}) => (
                     <div>
-                        {project.name}
+                        <Image src={png} width={100} height= {100} alt='Skill Logo'/>
+                        {name}
                     </div>
 
 

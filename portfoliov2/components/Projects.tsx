@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import { myWebProjects } from "@/public/Data";
 import Image from "next/image";
+import { GlareCard } from "./ui/glare-card";
 
 export const Projects = () =>{
     return(
@@ -10,10 +12,12 @@ export const Projects = () =>{
             </h1>
             <div className="flex flex-wrap gap-10 items-center justify-center">
                 {myWebProjects.map(({name, livelnk, githublnk, png}) => (
-                    <div>
-                        <Image src={png} width={100} height= {100} alt='Skill Logo'/>
-                        {name}
-                    </div>
+                    <GlareCard className="flex flex-col items-start justify-end py-8 px-6">
+                        <div>
+                            <Image src={png} width={100} height= {100} alt='Skill Logo'/>
+                            {name}
+                        </div>
+                    </GlareCard>
 
 
                 )

@@ -67,19 +67,19 @@ export const myWebProjects = [
     name: "GameNet",
     livelnk:"https://online-game-site-3eb2ce2f7928.herokuapp.com",
     githublnk: "https://github.com/ArmadaDev25/DGameSite",
-    png: "/images/rpsreact.png"
+    png: "/images/gameNet.png"
   },
   {
     name: "WarhammerMuster.com",
     livelnk:"https://warhammer-muster-a5ef2c39f109.herokuapp.com",
     githublnk: "https://github.com/ArmadaDev25/WarhammerListBuilderApp",
-    png: "/images/rpsreact.png"
+    png: "/images/WarhammerMuster.png"
   },
   {
     name: "Heros.io",
     livelnk:"https://armadadev25.github.io/heros.io/",
     githublnk: "https://github.com/ArmadaDev25/heros.io",
-    png: "/images/rpsreact.png"
+    png: "/images/herosIO.png"
   },
 
 

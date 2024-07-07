@@ -17,8 +17,8 @@ export const Projects = () =>{
                         <div>
                             <Image src={png} width={290} height= {290} alt='Page Picture'/>
                             {name}
-                            <div>
-                            <Image src={gitlogo} width={40} height= {40} alt='Repo Link'/>
+                            <div className="flex flex-wrap gap-3 justify-end items-center">
+                            <Image src={gitlogo} width={50} height= {40} alt='Repo Link'/>
                             <ShimmerButton
                                 title="Live Site"
                             />

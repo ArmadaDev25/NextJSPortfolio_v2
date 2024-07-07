@@ -3,6 +3,7 @@ import React from "react";
 import { myWebProjects } from "@/public/Data";
 import Image from "next/image";
 import { GlareCard } from "./ui/glare-card";
+import ShimmerButton from './ui/ShimmerButton'
 
 export const Projects = () =>{
     return(
@@ -16,7 +17,12 @@ export const Projects = () =>{
                         <div>
                             <Image src={png} width={290} height= {290} alt='Page Picture'/>
                             {name}
-                            <Image src={gitlogo} width={40} height= {40} alt='Page Picture'/>
+                            <div>
+                            <Image src={gitlogo} width={40} height= {40} alt='Repo Link'/>
+                            <ShimmerButton
+                                title="Live Site"
+                            />
+                            </div>
                         </div>
                         
                     </GlareCard>

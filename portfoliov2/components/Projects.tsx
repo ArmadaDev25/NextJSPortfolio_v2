@@ -11,11 +11,12 @@ export const Projects = () =>{
                 My Projects
             </h1>
             <div className="flex flex-wrap gap-10 items-center justify-center">
-                {myWebProjects.map(({name, livelnk, githublnk, png }, index) => (
+                {myWebProjects.map(({name, livelnk, githublnk, png, gitlogo }, index) => (
                     <GlareCard className="flex flex-col items-start justify-end py-8 px-6" key={index}>
                         <div>
                             <Image src={png} width={290} height= {290} alt='Page Picture'/>
                             {name}
+                            <Image src={gitlogo} width={40} height= {40} alt='Page Picture'/>
                         </div>
                         
                     </GlareCard>

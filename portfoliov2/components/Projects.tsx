@@ -2,8 +2,8 @@
 import React from "react";
 import { myWebProjects } from "@/public/Data";
 import Image from "next/image";
-import { GlareCard } from "./ui/glare-card";
 import ShimmerButton from './ui/ShimmerButton'
+import { Tooltip } from "flowbite-react";
 
 export const Projects = () =>{
     return(
@@ -13,19 +13,28 @@ export const Projects = () =>{
             </h1>
             <div className="flex flex-wrap gap-10 items-center justify-center">
                 {myWebProjects.map(({name, livelnk, githublnk, png, gitlogo }, index) => (
-                    <GlareCard className="flex flex-col items-start justify-end py-8 px-6" key={index}>
-                        <div>
+                    
+                    <div className="">
+                        <div className=" w-full relative max-w-xs">
+                        <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+                            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+                            <div>
                             <Image src={png} width={290} height= {290} alt='Page Picture'/>
                             {name}
                             <div className="flex flex-wrap gap-3 justify-end items-center">
-                            <Image src={gitlogo} width={50} height= {40} alt='Repo Link'/>
+                            <Tooltip content="Link Source Code">
+                                <Image src={gitlogo} width={50} height= {40} alt='Repo Link'/>
+                            </Tooltip>
                             <ShimmerButton
                                 title="Live Site"
                             />
                             </div>
+                            </div> 
                         </div>
-                        
-                    </GlareCard>
+                        </div>
+                    </div>
+                    
+                    
 
 
                 )

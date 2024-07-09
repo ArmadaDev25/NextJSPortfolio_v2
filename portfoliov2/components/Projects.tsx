@@ -12,7 +12,7 @@ export const Projects = () =>{
                 My Projects
             </h1>
             <div className="flex flex-wrap gap-10 items-center justify-center">
-                {myWebProjects.map(({name, livelnk, githublnk, png, gitlogo }, index) => (
+                {myWebProjects.map(({name, livelnk, des, githublnk, png, gitlogo }, index) => (
                     
                     <div className="">
                         <div className=" w-full relative max-w-xs">
@@ -20,7 +20,11 @@ export const Projects = () =>{
                             <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
                             <div>
                             <Image src={png} width={290} height= {290} alt='Page Picture'/>
-                            {name}
+                            <h1 className="md:text-2xl text-base font-bold">{name}</h1>
+                            <p className=" md:text-base text-sm">
+                                {des}
+
+                            </p>
                             <div className="flex flex-wrap gap-3 justify-end items-center">
                             <Tooltip content="Link Source Code">
                                 <Image src={gitlogo} width={50} height= {40} alt='Repo Link'/>

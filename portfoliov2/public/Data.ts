@@ -57,7 +57,7 @@ export const myWebProjects = [
     githublnk: "https://github.com/ArmadaDev25/RPS_REACTsite",
     png: "/images/rpsreact.png",
     gitlogo: "/images/icons8-github-30.png",
-    des:""
+    des:"A frontend webapp created in React in which users can play Rock, Paper, Scissors against a computer opponent"
   },
   {
     name: "Reactemon (Fortis)",
@@ -81,7 +81,7 @@ export const myWebProjects = [
     githublnk: "https://github.com/ArmadaDev25/WarhammerListBuilderApp",
     png: "/images/WarhammerMuster.png",
     gitlogo: "/images/icons8-github-30.png",
-    des:""
+    des:"Full Stack web app in which users can create, read, update, and delete army lists based on the Warhammer 40k table top. "
   },
   {
     name: "Heros.io",

@@ -57,7 +57,7 @@ export const myWebProjects = [
     githublnk: "https://github.com/ArmadaDev25/RPS_REACTsite",
     png: "/images/rpsreact.png",
     gitlogo: "/images/icons8-github-30.png",
-    des:"A frontend webapp created in React in which users can play Rock, Paper, Scissors against a computer opponent"
+    des:"A frontend webapp created in React in which users can play Rock, Paper, Scissors against a computer opponent."
   },
   {
     name: "Reactemon (Fortis)",
@@ -65,7 +65,7 @@ export const myWebProjects = [
     githublnk: "https://github.com/ArmadaDev25/FortisFrontend",
     png: "/images/reactemon.png",
     gitlogo: "/images/icons8-github-30.png",
-    des:""
+    des:"Web app that consists of a React Frontend and Express backend in which users can create, update, view, and delete collections consisting of Pokemon cards. Information for the each of the pokemon cards is pulled from a 3rd party api."
   },
   {
     name: "GameNet",
@@ -73,7 +73,7 @@ export const myWebProjects = [
     githublnk: "https://github.com/ArmadaDev25/DGameSite",
     png: "/images/gameNet.png",
     gitlogo: "/images/icons8-github-30.png",
-    des:""
+    des:"A Fullstack web app made in Django that allows users to create an account and create game listings that are visible on the hompage. Users are also able to update game information using a REST api."
   },
   {
     name: "WarhammerMuster.com",
@@ -89,7 +89,7 @@ export const myWebProjects = [
     githublnk: "https://github.com/ArmadaDev25/heros.io",
     png: "/images/herosIO.png",
     gitlogo: "/images/icons8-github-30.png",
-    des:""
+    des:"Broswer game created using CSS, HTML, Javascipt and DOM manipulation in which the player creates their own hero to go on quests and fight Orks."
   },
 
 

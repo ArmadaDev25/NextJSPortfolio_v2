@@ -29,7 +29,7 @@ const Hero = () => {
 
                     </p>
                     <div>
-                    <a className='px-3'>
+                    <a className='px-3' href='#projects'>
                         <LitUpBordersButton
                            title="My Work"
                         />

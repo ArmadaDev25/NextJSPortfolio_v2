@@ -28,11 +28,17 @@ export const Projects = () =>{
                             </p>
                             <div className="flex flex-wrap gap-3 justify-end items-center py-2">
                             <Tooltip content="Link Source Code">
+                                <a href={githublnk}>
                                 <Image src={gitlogo} width={50} height= {40} alt='Repo Link'/>
+                                </a>
+                                
+
                             </Tooltip>
+                            <a href={livelnk}>
                             <ShimmerButton
                                 title="Live Site"
                             />
+                            </a>
                             </div>
                             </div> 
                         </div>

@@ -27,7 +27,7 @@ export const Projects = () =>{
 
                             </p>
                             <div className="flex flex-wrap gap-3 justify-end items-center py-2">
-                            <Tooltip content="Link Source Code">
+                            <Tooltip content="Project Source Code">
                                 <a href={githublnk}>
                                 <Image src={gitlogo} width={50} height= {40} alt='Repo Link'/>
                                 </a>

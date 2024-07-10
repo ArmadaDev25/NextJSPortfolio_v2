@@ -34,7 +34,7 @@ const Hero = () => {
                            title="My Work"
                         />
                     </a>
-                    <a className='px-3'>
+                    <a className='px-3' href='https://github.com/ArmadaDev25'>
                         <ShimmerButton
                            title="My Github"
                         />

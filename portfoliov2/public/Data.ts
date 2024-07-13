@@ -94,3 +94,7 @@ export const myWebProjects = [
 
 
 ]
+
+export const socials = [
+  
+]

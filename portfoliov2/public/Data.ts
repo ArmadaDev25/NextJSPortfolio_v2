@@ -96,5 +96,13 @@ export const myWebProjects = [
 ]
 
 export const socials = [
+  {
+    link: "",
+    icon: "/icons8-github-120.png"
+  },
+  {
+    link: "",
+    icon: ""
+  }
   
 ]

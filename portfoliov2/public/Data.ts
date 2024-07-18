@@ -97,12 +97,12 @@ export const myWebProjects = [
 
 export const socials = [
   {
-    link: "",
+    link: "https://github.com/ArmadaDev25",
     icon: "/icons8-github-120.png"
   },
   {
-    link: "",
-    icon: ""
+    link: "https://www.linkedin.com/in/john-kvassay/",
+    icon: "/LinkedIn_icon.png"
   }
   
 ]

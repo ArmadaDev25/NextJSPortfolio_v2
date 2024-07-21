@@ -10,7 +10,9 @@ export const Socials = () =>{
             </h1>
             <div className="flex">
                 {socials.map ((socLnk, index) => (
-                    <Image src={socLnk.icon} width={50} height= {40} alt='Social Link'/>
+                    <div>
+                    <Image src={socLnk.icon} width={60} height= {60} alt='Social Link'/>
+                    </div>
                     
 
                 ))}

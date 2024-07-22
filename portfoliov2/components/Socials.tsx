@@ -8,7 +8,7 @@ export const Socials = () =>{
             <h1>
                 My Socials
             </h1>
-            <div className="flex">
+            <div className="flex gap-10">
                 {socials.map ((socLnk, index) => (
                     <div>
                     <Image src={socLnk.icon} width={60} height= {60} alt='Social Link'/>

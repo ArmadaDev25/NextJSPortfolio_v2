@@ -2,6 +2,7 @@
 "use client";
 import Image from "next/image";
 import { socials } from "@/public/Data";
+import { Tooltip } from "flowbite-react";
 export const Socials = () =>{
     return(
         <div className="py-10 dark:bg-black-100 bg-white">

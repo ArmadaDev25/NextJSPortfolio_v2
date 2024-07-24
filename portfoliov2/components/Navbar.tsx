@@ -8,6 +8,17 @@ const Navbar = () => {
                 <h1>
                     John K Portfolio
                 </h1>
+                <h1>
+                    Skills
+                </h1>
+                <h1>
+                    Projects
+                </h1>
+                <h1>
+                    Socials
+                </h1>
+
+
 
             </div>
 

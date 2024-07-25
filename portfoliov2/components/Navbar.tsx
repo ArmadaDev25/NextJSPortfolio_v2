@@ -8,6 +8,7 @@ const Navbar = () => {
                 <h1>
                     John K Portfolio
                 </h1>
+                <div className="flex flex-row">
                 <h1>
                     Skills
                 </h1>
@@ -17,6 +18,7 @@ const Navbar = () => {
                 <h1>
                     Socials
                 </h1>
+                </div>
 
 
 

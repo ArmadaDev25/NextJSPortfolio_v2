@@ -8,7 +8,7 @@ export const Socials = () =>{
         <div className="py-10 dark:bg-black-100 bg-white">
             <div className="flex md:flex-row flex-col justify-between items-center px-20 mt-40 w-full z-[20]">
             <div className="flex flex-col items-center justify-around ">
-                <h1 >
+                <h1 className="font-bold md:text-3xl sm:text-xl lg:text-4xl text-white mb-4 relative z-50" >
                     My Socials
                 </h1>
                 <h1>

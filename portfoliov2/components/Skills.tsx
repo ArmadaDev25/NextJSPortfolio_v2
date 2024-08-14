@@ -9,7 +9,7 @@ const Skills = () =>{
   
     
   return(
-      <div className="py-10 dark:bg-black-100 bg-white">
+      <div className="py-10 dark:bg-black-100 bg-white " id="skills">
         
         
         <div className=" flex justify-center ">

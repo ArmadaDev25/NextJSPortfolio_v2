@@ -10,7 +10,8 @@ const Skills = () =>{
     
   return(
     <div className="py-20 dark:bg-black-100 bg-white" id="skills">
-      <div className="py-20 dark:bg-black-100 bg-white " >
+    <div className="py-20" >
+      <div className="py-20" >
         
         
         <div className=" flex justify-center ">
@@ -46,6 +47,7 @@ const Skills = () =>{
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

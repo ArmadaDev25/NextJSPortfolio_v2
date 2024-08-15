@@ -29,6 +29,7 @@ export const Socials = () =>{
                 
                 </div>
             </div>
+            
             <Image src="/socialmediaimage.png" width={460} height= {460} alt='Social Link'/>
             </div>
 

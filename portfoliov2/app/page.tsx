@@ -24,7 +24,7 @@ export default function Home() {
     </main>
     <Skills />
     
-    <Projects />
+    
     <Navbar />
     <Socials/>
     </div>

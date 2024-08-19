@@ -18,11 +18,15 @@ export const Socials = () =>{
                 
                 <div className="flex gap-10 py-5">
                     {socials.map ((socLnk, index) => (
+                        <div
+                        key={index}
+                        > 
                         <a href={socLnk.link}>
                         <div className=" hover:opacity-50 ">
                         <Image src={socLnk.icon} width={60} height= {60} alt='Social Link'/>
                         </div>
                         </a>
+                        </div>
                         
 
                     ))}

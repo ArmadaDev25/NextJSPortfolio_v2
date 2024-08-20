@@ -21,7 +21,7 @@ const Skills = () =>{
             <Meteors number={20} />
   
             <h1 className="font-bold md:text-3xl sm:text-xl lg:text-4xl text-white mb-4 relative z-50">
-              Languages and Frameworks
+              Skills
             </h1>
   
             <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 relative items-center'>

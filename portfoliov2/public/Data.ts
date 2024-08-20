@@ -55,10 +55,17 @@ export const skills_Icons = [
     },
     {
       skill_name: "SQL",
-      Image: "/images/sgl.png",
+      Image: "/images/sql.png",
       width: 80,
       height: 80,
     },
+    {
+      skill_name: "MongoDB",
+      Image: "/images/mongodb.png",
+      width: 80,
+      height: 80,
+    },
+    
   ];
 
 export const myWebProjects = [

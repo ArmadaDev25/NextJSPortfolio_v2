@@ -47,6 +47,18 @@ export const skills_Icons = [
       width: 80,
       height: 80,
     },
+    {
+      skill_name: "PostgreSQL",
+      Image: "/images/postger.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "SQL",
+      Image: "/images/sgl.png",
+      width: 80,
+      height: 80,
+    },
   ];
 
 export const myWebProjects = [

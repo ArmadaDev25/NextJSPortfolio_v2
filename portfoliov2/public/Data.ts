@@ -48,6 +48,12 @@ export const skills_Icons = [
       height: 80,
     },
     {
+      skill_name: "C#",
+      Image: "/images/c#logo.png",
+      width: 80,
+      height: 80,
+    },
+    {
       skill_name: "PostgreSQL",
       Image: "/images/postger.png",
       width: 80,

@@ -49,7 +49,7 @@ export const skills_Icons = [
     },
     {
       skill_name: "C#",
-      Image: "/images/c#Logo.png",
+      Image: "/images/csharpLogo.png",
       width: 80,
       height: 80,
     },
